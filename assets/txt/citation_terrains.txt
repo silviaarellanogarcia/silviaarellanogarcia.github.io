@@ -1,0 +1,8 @@
+@inproceedings{arellano20233d,
+  title={A 3d terrain generator: Enhancing robotics simulations with gans},
+  author={Arellano, Silvia and Otero, Beatriz and Kucner, Tomasz Piotr and Canal, Ramon},
+  booktitle={International Conference on Machine Learning, Optimization, and Data Science},
+  pages={212--226},
+  year={2023},
+  organization={Springer}
+}

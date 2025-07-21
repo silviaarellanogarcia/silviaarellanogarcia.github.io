@@ -1,0 +1,8 @@
+@inproceedings{arellano2023exploring,
+  title={Exploring Image Transformations with Diffusion Models: A Survey of Applications and Implementation Code},
+  author={Arellano, Silvia and Otero, Beatriz and Tous, Ruben},
+  booktitle={International Conference on Machine Learning, Optimization, and Data Science},
+  pages={19--33},
+  year={2023},
+  organization={Springer}
+}

@@ -1,0 +1,11 @@
+@inproceedings{arellano2025rirgeneration,
+    title={Room Impulse Response Generation Conditioned on Acoustic Parameters},
+    author={Silvia Arellano and Chunghsin Yeh and Gautam Bhattacharya and Daniel Arteaga},
+    booktitle={IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA 2025)},
+    year={2025},
+    note={Accepted},
+    eprint={2507.12136},
+    archivePrefix={arXiv},
+    primaryClass={cs.SD},
+    url={https://arxiv.org/abs/2507.12136}
+}
