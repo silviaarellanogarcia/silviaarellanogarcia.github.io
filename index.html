@@ -42,7 +42,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/profile_circle.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -63,8 +63,8 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <!-- TODO: Add the new sections here. -->
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Side projects</a></li>
+        <li><a href="#news"><i class="bi bi-chat-left-text-fill navicon"></i> News</a></li>
       </ul>
     </nav>
 
@@ -79,7 +79,7 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Silvia Arellano García</h2>
-        <p>I'm <span class="typed" data-typed-items="a Machine Learning Engineer, a Telecommunication Engineering graduate, an animation fan, a board game enjoyer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <p>I'm <span class="typed" data-typed-items="a Machine Learning Engineer, an Electrical Engineering graduate, an animation fan, a board game enjoyer"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
 
     </section><!-- /Hero Section -->
@@ -133,13 +133,6 @@
 
     </section><!-- /About Section -->
 
-    <!-- /News Section -->
-    <section id="news" class="news section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>News</h2>
-      </div>
-    </section><!-- /News Section -->
-
     <!-- Resume Section -->
     <section id="resume" class="resume section">
 
@@ -164,7 +157,7 @@
             <div class="resume-item">
               <h4>BSc Electrical Engineering </h4>
               <h5>2019 - 2023</h5>
-              <p><em>ETSETB - Universitat Politècnica de Catalunya, Barcelona, Spain</em></p>
+              <p><em>ETSETB - Universitat Politècnica de Catalunya (UPC), Barcelona, Spain</em></p>
               <p>Specialized in Audiovisual Systems. Relevant courses: Image and Video Processing, Audio and Speech Processing, Probability and Statistics,
                 Audiovisual Coding, Acoustics and Electroacustics.
               </p>
@@ -277,7 +270,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Side projects</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>These are some of my favourite public projects. I have other private ones, but you can check these out!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -295,167 +288,97 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-animation">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/inbetweening.jpg" class="img-fluid" alt="">
+              <div class="portfolio-card">
+                <div class="portfolio-image-wrapper">
+                  <img src="assets/img/portfolio/inbetweening.jpg" class="portfolio-image" alt="">
+                </div>
                 <div class="portfolio-info">
-                  <h4>Animation</h4>
-                  <p>Motion inbetweening</p>
-                  <a href="assets/img/portfolio/inbetweening.jpg" 
+                  <h5>Motion inbetweening</h5>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/inbetweening.jpg" 
                       title="Motion inbetweening" 
-                      data-description="This project explores AI-based motion inbetweening techniques to generate smoother animations." 
+                      data-description="The goal of this project was to develop a model capable of generating missing frames in motion 
+                      sequences, with variable gap sizes of up to 15 frames. The model was tested on various types of motion. 
+                      Throughout the project, we explored different architectures, analyzing the strengths and weaknesses of each. 
+                      This work was carried out as part of the 6 ECTS course <em>Advanced Individual Course in Computer Science at KTH.</em>" 
                       data-gallery="portfolio-gallery-animation" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://github.com/silviaarellanogarcia/Motion-In-betweening" target="_blank" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="https://github.com/silviaarellanogarcia/Motion-In-betweening" target="_blank" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphics">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/blender_clouds.png" class="img-fluid" alt="">
+              <div class="portfolio-card">
+                <div class="portfolio-image-wrapper">
+                  <img src="assets/img/portfolio/blender_clouds.png" class="portfolio-image" alt="Cloud generator for Blender">
+                </div>
                 <div class="portfolio-info">
-                  <h4>Graphics</h4>
-                  <p>Cloud generator for Blender</p>
-                  <a href="assets/img/portfolio/blender_clouds.png" title="Cloud generator for Blender" 
-                      data-description="TO DO"
-                      data-gallery="portfolio-gallery-graphics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h5>Cloud generator for Blender</h5>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/blender_clouds.png" 
+                      title="Cloud generator for Blender" 
+                      data-description='Inspired by the video <a href="https://www.youtube.com/watch?v=B8j5FZahLRY" target="_blank">3 Ways to Make Easy Clouds in Blender3</a>, I developed a Cloud Generator to explore Blender’s features more deeply, including modifiers, materials, textures and Python scripting. The tool allows users to customize the cloud’s color and density, making it flexible for different visual styles. This project was completed as a bonus assignment for the <em>Introduction to Computer Graphics and Visualization (DH2320)</em> course at KTH.'
+                      data-gallery="portfolio-gallery-graphics" 
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                    <a href="https://github.com/silviaarellanogarcia/Blender-Cloud-Generator" 
+                      target="_blank"
+                      title="More Details" 
+                      class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphics filter-animation">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/3D_asset_generation.png" class="img-fluid" alt="">
+              <div class="portfolio-card">
+                <div class="portfolio-image-wrapper">
+                  <img src="assets/img/portfolio/3D_asset_generation.png" class="portfolio-image" alt="">
+                </div>
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Multi-view to 3D asset generation</p>
-                  <a href="assets/img/portfolio/3D_asset_generation.png" title="Multi-view to 3D asset generation" 
-                      data-description="TO DO"
-                      data-gallery="portfolio-gallery-graphics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h5>Multi-view to 3D asset generation</h5>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/3D_asset_generation.png" title="Multi-view to 3D asset generation" 
+                      data-description='This project focuses on improving the performance of <a href="https://github.com/Microsoft/TRELLIS" target="_blank">TRELLIS</a>’s multi-view conditioning without requiring model retraining. To this end, we propose <strong>VALS</strong> (View-Aligned Latent Stitching), a novel inference-time technique that enhances multi-view 3D asset generation through latent space manipulation. Our results are particularly promising when conditioning on real photographs or complex assets, demonstrating the method’s potential to streamline the asset creation pipeline and support rapid ideation in production environments.<br><br>A link to the thesis will be added as soon as it is published by the university.'
+                      data-gallery="portfolio-gallery-graphics" class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                    <!-- <a href="portfolio-details.html" title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a> -->
+                  </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
+            </div>
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/multiagent_systems.png" class="img-fluid" alt="">
+              <div class="portfolio-card">
+                <div class="portfolio-image-wrapper">
+                  <img src="assets/img/portfolio/multiagent_systems.png" class="portfolio-image" alt="Multiagent Systems">
+                </div>
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/multiagent_systems.png" title="Branding 1" data-gallery="portfolio-gallery-others" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h5>Multiagent Systems</h5>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/multiagent_systems.png" 
+                      title="Multiagent Systems" 
+                      data-gallery="portfolio-gallery-others" 
+                      class="glightbox preview-link">
+                      <i class="bi bi-zoom-in"></i>
+                    </a>
+                    <a href="https://github.com/silviaarellanogarcia/AutonomousAgentNavigation" 
+                      target="_blank"
+                      title="More Details" 
+                      class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/hackupc.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/hackupc.png" title="Branding 1" data-gallery="portfolio-gallery-others" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
-
-            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>End Portfolio Item -->
+            </div> -->
 
           </div><!-- End Portfolio Container -->
 
@@ -465,13 +388,93 @@
 
     </section><!-- /Portfolio Section -->
 
+    <!-- /News Section -->
+    <section id="news" class="news section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>News</h2>
+        </div>
+
+        <!-- News Item -->
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+          <!-- Image on the Left -->
+          <div class="col-md-3">
+            <img src="assets/img/news/shes_in_the_game.jpg" 
+                class="img-fluid rounded shadow-sm news-image">
+          </div>
+
+          <!-- Text on the Right -->
+          <div class="col-md-9">
+            <h4 class="mb-2">She's In The Game Workshop</h4>
+            <em class="d-block mb-2">March 2025</em>
+            <p> I participated as a mentor in the She’s in the Game workshop at Electronic Arts, where we guided fourteen teenage 
+              girls through the process of creating their first video game. We introduced them to various aspects of game development 
+              and showed them that it can be an exciting and rewarding career path!
+            </p>
+          </div>
+        </div>
+
+        <!-- Another News Item -->
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+          <div class="col-md-3">
+            <img src="assets/img/news/cern.JPG" 
+                class="img-fluid rounded shadow-sm news-image">
+          </div>
+          <div class="col-md-9">
+            <h4 class="mb-2">Challenge Based Innovation @ CERN</h4>
+            <em class="d-block mb-2">Autumn 2022</em>
+            <p>
+              This project was part of the EU-ATTRACT Academy Program, which aims to explore ways to apply discoveries and breakthroughs from leading European research institutions. The goal is to address challenges in areas including healthcare, air and water pollution, food safety, and social inequality.
+              
+              We developed a prototype consisting of an electronic device designed to track the precise location of a tumor within a patient’s body, along with software developed in C#. The software reconstructs and visualizes a digital representation of the tumor based on the data received from the device.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Another News Item -->
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+          <div class="col-md-3">
+            <img src="assets/img/news/bits.jpeg" 
+                class="img-fluid rounded shadow-sm news-image">
+          </div>
+          <div class="col-md-9">
+            <h4 class="mb-2">BitsxLaMarató</h4>
+            <em class="d-block mb-2">2020, 2021 and 2022 editions</em>
+            <p>
+              Organized and directed BitsxLaMarató, a hackathon hosted by FIB, BSC, and Hackers@UPC in support of La Marató de TV3, a public Catalan charity initiative that raises funds for biomedical research projects. Around 150 participants spent a weekend developing technological projects that addressed challenges proposed by institutions such as hospitals and research centers. The event also featured outreach talks and activities aimed at raising awareness and sharing knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Another News Item -->
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+          <div class="col-md-3">
+            <img src="assets/img/news/hackupc2.jpg" 
+                class="img-fluid rounded shadow-sm news-image">
+          </div>
+          <div class="col-md-9">
+            <h4 class="mb-2">HackUPC</h4>
+            <em class="d-block mb-2">2020 - 2023</em>
+            <p>
+              Organizer of <a href="https://hackupc.com/" target="_blank">HackUPC</a>, a student hackathon with 700 participants from around the world. I led the Marketing department, managing communications with hackers and running social media.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <p><span>This site is based on</span><strong class="px-1 sitename">© iPortfolio</strong></p>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
