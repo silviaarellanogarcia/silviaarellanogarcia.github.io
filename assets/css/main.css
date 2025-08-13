@@ -655,7 +655,9 @@ section,
 /*--------------------------------------------------------------
 # News Section
 --------------------------------------------------------------*/
-
+.news p{
+  margin-right: 12px;
+}
 
 /*--------------------------------------------------------------
 # Stats Section
@@ -912,6 +914,7 @@ section,
 
 .portfolio-card:hover {
   transform: translateY(-5px);
+  border: 2px solid #bf0f61;
 }
 
 .portfolio-image-wrapper {
