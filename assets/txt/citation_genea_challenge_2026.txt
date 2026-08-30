@@ -1,0 +1,9 @@
+@misc{nagy2026geneachallenge2026largescale,
+      title={The GENEA Challenge 2026: A Large-Scale Disentangled Evaluation of Speech-Driven Gesture Generation on the Seamless Interaction Dataset}, 
+      author={Rajmund Nagy and Silvia Arellano García and Hendric Voss and Mihail Tsakov and Taras Kucherenko and Youngwoo Yoon and Gustav Eje Henter},
+      year={2026},
+      eprint={2608.10839},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.10839}, 
+}

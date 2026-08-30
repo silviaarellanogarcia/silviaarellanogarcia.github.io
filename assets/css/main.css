@@ -1347,6 +1347,7 @@ section,
   margin-left: 5px;
   margin-right: 5px;
   padding: 20px;
+  position: relative;
 }
 
 .publications .publication-item:hover {
@@ -1398,4 +1399,20 @@ section,
   background-color: #bf0f61;  /* orange */
   border-color: #bf0f61;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# News Section
+--------------------------------------------------------------*/
+.news-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .news-image {
+    height: 180px;
+    margin-bottom: 15px;
+  }
 }
