@@ -1347,7 +1347,6 @@ section,
   margin-left: 5px;
   margin-right: 5px;
   padding: 20px;
-  position: relative;
 }
 
 .publications .publication-item:hover {
@@ -1369,18 +1368,6 @@ section,
 
 .publications .publication-item:last-child {
   padding-bottom: 0;
-}
-
-.publications .publication-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: var(--background-color);
-  border: 2px solid var(--accent-color);
 }
 
 .publication-buttons {
